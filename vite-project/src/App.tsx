@@ -13,11 +13,10 @@ export default function App() {
       <Routes>
         <Route path='about' element={<About></About>}></Route>
         <Route path='contact' element={<Contact></Contact>}></Route>
-        <Route path='' element={<Home2></Home2>}>
+        <Route path='' element={<Home></Home>}>
           <Route path='home2' element={<Home2></Home2>}></Route>
-          <Route path='contact2' element={<Contact2></Contact2>}></Route>
           <Route path='about2' element={<About2></About2>}></Route>
-        </Route>
+          <Route path='contact2' element={<Contact2></Contact2>}></Route>        </Route>
       </Routes>
     </div>
   )
